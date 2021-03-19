@@ -9,6 +9,7 @@
         <a href= "register.html">Register</a>
        
         <main>
+            <form>
             <section>
                 <p><strong>John Doe</strong><br>
                 johndoe@gmail.com </p>
@@ -21,20 +22,27 @@
             <section>
                 <h2> Update Profile</h2>
                 <form name = "updateprofile">
-                    <label for="firstName">First Name:</label> <input type = "text" /><br>
-                <label for="lastName">Last Name:</label> <input type = "text" /><br>
-                <label for="email">Email Address:</label> <input type = "email" /><br>
-                 <label for="matricNumber">Matric Number:</label> <input type = "text" /><br>
+                    <div>First Name:</label> <input type = "text" name="firstName"/></div><br>
+                    <div>Last Name:</label> <input type = "text" name="lastName" /></div><br>
+                    <div>Email Address:</label> <input type = "email" name="email" /></div><br>
+                 <div>Matric Number:</label> <input type = "text" name="matricNumber"/></div><br>
             <label for="program">Programme :</label>
 
-<select name="program" id="program">
+<select name="program">
   <option value="computer_science">Computer Science</option>
   <option value="computer_information_systems">Computer Information Systems</option>
   <option value="computer_technology">Computer Technology</option>
 </select><br>
 <label for="graduationYear">Graduation Year:</label>
-<select name="graduationYear" id="graduationYear">
+<select name="graduationYear" >
     <option value="2013">2013</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
   </select><br>
             <input type = "submit" name = "submit"/>
             </p>
